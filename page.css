@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80vw;
+    display: flex;
+    gap:30px;
+}
+.img{
+    width: 50%;
+}
+.info{
+    width: 50%;
+}
+.info p{
+    line-height: 24px;
+}

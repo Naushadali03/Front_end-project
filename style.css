@@ -1,0 +1,23 @@
+.box1{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(194, 223, 235);
+    border-left: 10px solid skyblue;
+}
+.box1 p{
+    padding-left: 8px;
+    padding-top: 27px;
+    font-size: 1.1rem;
+}
+.box2{
+    width: 70%;
+    height: 70px;
+    background-color: rgb(211, 166, 166);
+    border-left: 10px solid brown;
+    /* opacity: 0.2; */
+}
+.box2 p{
+    padding-left: 8px;
+    padding-top: 27px;
+    font-size: 1.1rem;
+}

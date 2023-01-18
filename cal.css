@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 320px;
+    height: 400px;
+    text-align: center;
+}
+.div{
+    padding-top: 25px;
+    border: 1px solid black;
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 2 span;
+}
+#box0{
+    grid-column-start: 1;
+    grid-column-end: 3 span;
+}
+.div:hover{
+    cursor: pointer;
+    background-color: rgb(190, 191, 192);
+}
+.number-input{
+    position: relative;
+    width: 320px;
+    height: 100px;
+    top: 150px;
+    left: 472px;
+    background-color: black;
+    color: white;
+    text-align: end;
+}
+.orange{
+    background-color: orange;
+    font-weight: bold;
+}

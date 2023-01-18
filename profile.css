@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap:8px;
+    
+}
+.box{
+    width: 350px;
+    box-shadow: 10px 10px 10px rgb(240, 240, 240);
+}
+.box img{
+    width: 100%;
+}
+.cont{
+    background-color: rgb(227, 221, 221);
+    text-align: center;
+    height: 40px;
+    width: 300px;
+    margin: 20px;
+}
+.cont p{
+    padding-top: 9px;
+}

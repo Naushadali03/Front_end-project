@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    display: flex;
+    gap: 10px;
+}
+.box1{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 20px 20x 40px 40px;
+}
+.box2{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10x 30px;
+}
+.box3{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10x 30px;
+}
+.sbox{
+    border: 1px solid rgb(228, 228, 228);
+}
+#sbox1{
+    background-color: black;
+    height: 95px;
+}
+#sbox1 h1{
+    color: aliceblue;
+    text-align: center;
+}
+.sbox{
+    text-align: center;
+}
+#sbox2{
+    height: 65px;
+}
+#sbox3{
+    height: 65px;
+}
+#sbox4{
+    height: 65px;
+}
+#sbox5{
+    height: 65px;
+}
+#sbox6{
+    height: 115px;
+}
+#sbox7{
+    height: 95px;
+    background-color: rgb(236, 234, 234);
+}
+.sbox .btn{
+    margin-inline: auto;
+    width: 90px;
+    height: 35px;
+    background-color: rgb(10, 216, 10);
+}
+.btn p{
+    color: white;
+    padding-block: 10px;
+}

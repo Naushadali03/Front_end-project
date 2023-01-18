@@ -1,0 +1,18 @@
+.box{
+    width: 40%;
+    height: 100vh;
+    border: 2px solid black;
+    margin-inline: auto;
+}
+.box img{
+    width: 100%;
+}
+.box p{
+    margin-left: 12px;
+}
+.box .box2{
+    width: 190px;
+    height: 60px;
+    margin-left: 12px;
+    background-color: black;
+}

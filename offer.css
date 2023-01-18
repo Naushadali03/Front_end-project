@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.l1{
+    display: flex;
+    gap: 15px;
+}
+.r2{
+    display: flex;
+    gap: 15px;
+}
+.r1{
+    display: flex;
+    gap:15px;
+}
+.l2{
+    display: flex;
+    gap:15px;
+
+}

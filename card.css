@@ -1,0 +1,20 @@
+.card{
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 15px 15px 30px;
+}
+.card img{
+    width: 100%;
+}
+.card h1,p{
+    text-align: center;
+}
+.con{
+    background-color: black;
+    height: 70px;
+}
+.icon{
+    text-align: center;
+}
